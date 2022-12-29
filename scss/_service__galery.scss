@@ -1,0 +1,58 @@
+#service__galery {
+  @include flex80Dsk;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  padding: 0px 5px 0px 5px;
+    a {
+      color: white;
+  }
+  
+}
+
+.service__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  width: 15%;
+  height: 150px;
+  word-wrap: break-word;
+  transition: .3s ease-in-out all;
+  &:hover {
+    margin-top: -5px;
+    box-shadow: #262626 2px 3px 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+}
+
+@for $i from 1 to 6 {
+  .service#{$i} {
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+    text-shadow: black 0px 2px 2px;
+    text-align: center;
+  }
+}
+
+.service {
+  &1 {
+    background-image: url(../imgs/estudio1.webp);
+  }
+  &2 {
+    background-image: url(../imgs/obras3.webp);
+  }
+  &3 {
+    background-image: url(../imgs/trabajo.webp);
+  }
+  &4{
+    background-image: url(../imgs/seguros.webp);
+  }
+  &5{
+    background-image: url(../imgs/cc.webp);
+  }
+}
+

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../imgs/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="scss/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BE85EVS13S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-BE85EVS13S');
+    </script>
+  <title>Proyecto Liquidaciones - Estudio Antonio - Vampa</title>
+</head>
+
+<body class="modoClaro">
+  <header>
+    <div class="header">
+      <div class="header__logoCont">
+        <div class="header__logoCont_logo">
+          <a href="../index.html" target="_self"><img src="../imgs/Logo.webp" id="logo" alt="Logo_Estudio_Antonio-Vampa" width="100" height="90"></a>
+        </div>
+      </div>
+      <div class="header__logoCont_text">
+        <h2 class="header__logoCont__titulo">ESTUDIO<br>ANTONIO<br>VAMPA</h2>
+      </div>
+      <div id="contacto">
+        <p class="header__contacto__contactText"><a class="aNone" href="http://wa.me/5492214259911" target="_blank">Tel.wapp +54.221.4259911</a></p>
+        <p class="header__contacto__contactText separador">|</p>
+        <p class="header__contacto__contactText"><a class="aNone" href="mailto:estudio@antoniovampa.com.ar" target="_blank">estudio@antoniovampa.com.ar</a></p>
+      </div>
+    </div>
+    <div id="contact__responsive">
+      <a class="contact__responsive__text" href="http://wa.me/5492214259911" target="_blank">Tel.wapp +54.221.4259911</a>
+      <a class="contact__responsive__text" href="mailto:estudio@antoniovampa.com.ar" target="_blank">estudio@antoniovampa.com.ar</a>
+    </div>
+  </div>
+    <nav id="nav">
+      <!-- Nav Boonstrap -->
+      <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">El Estudio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dcho. Administrativo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dcho. Laboral</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Seguros Colectivos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dcho. Civil y Comercial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navegador Juan -->
+       <ul class="menu">
+        <li><a class="aNone" href="index.html">Inicio </a>|</li>
+        <li><a class="aNone" href="#">El Estudio </a>|</li>
+        <li><a class="aNone" href="#">Derecho Administrativo </a>|</li>
+        <li><a class="aNone" href="#">Derecho Laboral </a>|</li>
+        <li><a class="aNone" href="#">Seguros Colectivos </a>|</li>
+        <li><a class="aNone" href="#">Civil y Comercial </a>|</li>
+        <li><a class="aNone"  href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="main__section__pages">
+      <h1 class="main__text__pages">Liquidaciones de apremios</h1>
+      <div class="barraLiquidacion">
+        <div class="jusText">
+          <p class="jus">Valor actual de Jus Arancelerio: $6.854</p>
+        </div>
+        <div class="modoDark">
+          <div class="botonDark">
+            <div><a class="textBotonDark" href="#">Oscurecer</a></div>
+            <div class="imgModoDark"></div>
+          </div>
+        </div>
+
+      </div>
+
+            
+     <form id="formLiquidacion" action="#">
+      <div class="formLinea1">
+        <div class="formLinea1Columna1">
+          <p class="textoFormLinea1">Valor Certificado en Juicio $</p><input type="number" placeholder="Monto del Certificado $" id="certificado"></input>
+        </div>
+      </div>
+      <div class="formLinea2">
+        <p class="textoFormLinea2">Juicio con sentencia</p><input type="checkbox" name="sentencia" id="sentencia">
+      </div>
+      <div class="formLinea3">
+        <div class="formLinea3Columna1">
+          <p class="textoFormLinea3">Capital de Origen $</p><input type="number" placeholder="capital origen" id="capital"></input>
+        </div>
+        <div class="formLinea3Columna2">
+          <p class="textoFormLinea3">Intereses Devengados $</p><input type="number" placeholder="intereses" id="intereses"></input>
+        </div>
+        <div class="formLinea3Columna3">
+          <p class="textoFormLinea3">Multa $</p><input type="number" placeholder="multa" id="multa"></input>
+        </div>
+      </div>
+      <div class="formLinea4">
+        <div class="formLinea4Columna1">
+          <p class="textoFormLiena4">Porcentaje de honorarios</p><select id="porcentajeHon">
+            <option value="18">18%</option>
+            <option value="3">3%</option>
+            <option value="4">4%</option>
+            <option value="5">5%</option>
+            <option value="6">6%</option>
+            <option value="7">7%</option>
+            <option value="8">8%</option>
+            <option value="9">9%</option>
+            <option value="10">10%</option>
+            <option value="11">11%</option>
+            <option value="12">12%</option>
+            <option value="13">13%</option>
+            <option value="14">14%</option>
+            <option value="15">15%</option>
+            <option value="16">16%</option>
+            <option value="17">17%</option>
+            <option value="18">18%</option>
+          </select>
+        </div>
+        <div class="formLinea4Columna2">
+          <p class="textoFormLinea4">Condición frente al IVA inscripto</p><input type="checkbox" name="iva" id="iva">
+        </div>
+        <div class="formLinea4Columna3">
+          <p class="textoFormLinea4">Cuotas del Plan de Pago</p><input type="number" placeholder="plan origen" id="plan" required></input>
+        </div>
+      </div>
+      <div>
+        <div class="botonLiquidacion" id="botonCalcular"><p class="textBotonLiquidacion">Calcular</p></div>
+      </div>
+     </form>
+      </div>
+      <div id="resultadoLiquidacion">
+        <div>
+          <h2 class="tituloLiquidacion">Liquidación</h2>
+        </div>
+        <div id="resultados">
+            <div class="datosDeuda">
+              <div class="item">
+                <div class="textItem"><p>Monto del certificado en juicio:</p></div>
+                <div class="valorCertificado dato"></div>
+              </div>
+              <div class="item">
+                <div class="textItem"><p>Deuda actualizada:</p></div>
+                <div class="valorDeudaActualizada dato"></div>
+              </div>
+              <div class="item">
+                <div class="textItem"><p>Monto a abonar según plan/cuotas:</p></div>
+                <div class="montoPlan dato"></div>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="tituloLiquidacion">Costas</h2>
+            </div>
+
+            <div class="costas">
+              <div class="itemResultado">
+                <div class="item">
+                  <div class="textItem"><p>Honorarios:</p></div>                    
+                  <div class="honorarios dato"></div>
+                </div>
+                <div class="item">
+                  <div class="textItem"><p>Aportes:</p></div>                    
+                  <div class="aportes dato"></div>
+                </div>
+                <div class="item">
+                  <div class="textItem"><p>IVA:</p></div>                    
+                  <div class="iva dato"></div>
+                </div>
+                <div class="item">
+                  <div class="textItem"><p>Tasa de Justicia:</p></div>                    
+                  <div class="tasa dato"></div>
+                </div>
+                <div class="item">
+                  <div class="textItem"><p>Sobre Tasa:</p></div>                    
+                  <div class="sobeTasa dato"></div>
+                </div>
+                <div class="item">
+                  <div class="textItem"><p>Total Costas:</p></div>                    
+                  <div class="total dato"></div>
+                </div>            
+              </div>
+          </div>
+        </div>
+        <div>
+          <div class="botonLiquidacion" id="botonModificar"><p class="textBotonLiquidacion">Modificar</p></div>
+          <div class="botonLiquidacion" id="botonImprimir"><p class="textBotonLiquidacion">Imprimir</p></div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- Galaria de servicios -->
+    <div id="service__galery" class="holaa">
+      <a class="aNone service__item service1" href="./elestudio.html" target="_self">El Estudio</a>
+      <a class="aNone service__item service2" href="./administrativo.html" target="_self"">Derecho Administrativo</a>
+      <a class="aNone service__item service3" href="./laboral.html" target="_self">Derecho Laboral</a>
+      <a class="aNone service__item service4" href="./seguros.html" target="_self">Seguros Colectivos</a>
+      <a class="aNone service__item service5" href="./civilcomercial.html" target="_self">Civil y Comercial</a>
+    </div>
+    <div id="imgDecoContent">
+      <img class="imgDeco" src="../imgs/imgDeco.png" alt="" class="imgDeco">
+    </div>
+  </main>
+ 
+
+  <!-- Footer + boonstrap -->
+  <footer>
+    <div class="footerAll conteiner">
+      <div class="footerColumns row">
+        <div class="footer-column1 footer-items col">
+          <a href="../index.html" target="_self"><img src="../imgs/logoFooter.webp" alt="Logo_fEstudio_Antonio-Vampa" class="logoFooter"></a>
+          <h4>Estudio Antonio - Vampa | abogados</h4>
+        </div>
+        <div class="footer-column2 footer-items col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a class="aNone" href="./elestudio.html" target="_self">El Estudio</a></li>
+            <li><a class="aNone" href="./administrativo.html" target="_self">Derecho Administrativo</a></li>
+            <li><a class="aNone" href="./laboral.html" target="_self">Derecho Laboral</a></li>
+            <li><a class="aNone" href="./seguros.html" target="_self">Seguros Colectivos</a></li>
+            <li><a class="aNone" href="./civilcomercial.html" target="_self">Civil y Comercial</a></li>            
+          </ul>
+        </div>
+        <div class="footer-column3 footer-items col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a class="aNone" href="tel:+5492214259911" target="_blank">Tel. +54 221 4259911 </a></li>
+            <li><a class="aNone" href="http://wa.me/5492214259911" target="_blank">Whatsapp +542214259911</a></li>
+            <li><a class="aNone" href="mailto:estudio@antoniovampa.com.ar" target="_blank">estudio@antoniovampa.com.ar</a></li>
+            <li><a class="aNone" href="https://g.page/estudioantoniovampa?share" target="_blank">Calle 48 845 4ºB - La Plata (1900) - Bs.As. Argentina</a></li>    
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p>Estudio Antonio - Vampa &copy 2022 | <a class="aNone" href="mailto:jantonio@antoniovampa.com.ar" target="_blank">web:Juan ANTONIO</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+ <script src="/js/liquidaciones.js"></script>
+</body>
+</html>

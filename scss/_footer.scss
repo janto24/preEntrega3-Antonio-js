@@ -1,0 +1,59 @@
+footer {
+  margin: auto;
+  position: relative;
+  bottom: 0;
+  background-color: #B2B2B2;
+  width: 100%;
+  color: #B2B2B2;
+  word-wrap: break-word;
+}
+
+.footer {
+  &All {
+    width: $wDsk;
+    border-radius: 7px 7px 0px 0px;
+    margin: auto;
+    padding-bottom: 5px;
+    background-color: #595959;   
+}
+  &Columns {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;  
+    h4 {
+      font-size: 15px;
+  } 
+    li {
+      font-size: 14px;
+      list-style-type: none;
+      line-height: 30px;
+  }    
+    a {
+      color: #B2B2B2;
+  }
+}
+  &-column3 {
+    width: 33%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+  &-column1,&-column2 {
+    @extend .footer-column3;
+    border-right: 00.5px solid #262626;
+  }
+  &__base {
+    background-color: #262626;
+    color: #757575;
+    font-size: 12px;
+    text-align: center;
+    width: $wDsk;
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px;
+    a {
+      color: #757575;
+  }
+}
+}  
+
